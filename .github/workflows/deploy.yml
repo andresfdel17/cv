@@ -12,7 +12,7 @@ jobs:
         run: npm i -g yarn && yarn
       - name: Construir
         run: |
-          yarn build --base=./
+          yarn build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
