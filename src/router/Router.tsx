@@ -4,7 +4,7 @@ import { Portfolio } from '../components'
 
 export const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/cv'>
         <Routes>
             <Route path="/" element={<Navigate to={"/portfolio"} />} />
             <Route path="/portfolio" element={<Portfolio />} />
